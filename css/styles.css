@@ -17,7 +17,11 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
+	background-image: url("https://upload.travelawaits.com/ta/uploads/2021/04/pioneers-park-in-lincoln-nebf96683-1024x683.jpg");
 	background-color: rgb(30, 100, 10);
+	height: 500px;
+	background-position: center;
+	background-size: cover;
 }
 
 #container {
@@ -109,6 +113,21 @@ h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+	height: 70px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
 }
 
 footer {
